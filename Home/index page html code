@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="loginform.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Navigation Bar</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="loginform.css">
 </head>
 <body>
-  <div class="formimage"></div>
-   <div class="container">
+  <header>
+    <div class="navbar">
+      <div class="nav-left">
+        <h1 class="site-title">fw</h1>
+      </div>
+      <div class="nav-right">
+        <a href="loginform.html">HOME</a>
+        <a href="form.html">Create Account</a>
+        <a href="loginform.html">Login</a>
+        <a href="/MY WARDROBE.html">Contact</a>
+      </div>
+    </div>
+   </header>
+  <div class="top-banner">
+ <p id="u">Form Bharo Ya Bharwao, Sab Kuch Yahaan Paao!</p>
   <div class="logo"></div>
 </div>
 
-
-   <h1 class="role-title">What Brings You Here Today?</h1>
-<p class="role-subtitle">Choose your role to continue</p>
+  
+  <p class="role-subtit">Choose your role to continue</p>
 
      <div class="btn-container">
    <button class="btn" onclick="window.location.href='form.html'">Seeker</button>
@@ -23,27 +36,49 @@
      
 </div>
 
-    <!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-  <center><h1>Login</h1></center>
-  <form name="Login" action="#" method="" >
-    <table align="center" bgcolor="pink">
-        <tr><td> Username </td></tr>
-        <tr><td><input type="text" name="username" size="100" placeholder="Enter Username" required></td></tr>
-         <tr><td> Password </td></tr>
-        <tr><td><input type="password" name="password" size="100" placeholder="Enter Password" required></td></tr>
-         <tr><td><input type="submit" value="login" ></td></tr>
-          <tr><td><input type="checkbox" checked="checked" > Show</td></tr>
-           <tr><td>  If Not Register <a href="#"> Create an account </a></td></tr>
-    </table>
-  </form> 
-   
+<div class="step"></div>
+<div><hr></div>
+
+<p class="top">Fill the Form in just 3 easy and quick steps</p>
+ <div class="icon-row">
+  <div class="accounticon">
+    <i class="fa-regular fa-user"></i>
+    <p class="as">Create your Account</p>
+  </div>
+
+  <div class="documenticon">
+    <i class="fa-regular fa-file-lines"></i>
+    <p class="bc">Upload your Document</p>
+  </div>
+  <div class="form">
+    <i class="fa-solid fa-file-lines"></i>
+    <p class="cd">Select your form</p>
+  </div>
+</div>
+<div class="list">
+  <p class="l">List</p>
+  <div class="ticker-wrapper">
+    <div class="options">
+      <p>JEE</p>
+      <p>NEET</p>
+      <p>CUET</p>
+      <p>CLAT</p>
+      <p>COLLEGE ADMISSION</p>
+      <p>RTO</p>
+      <p>DU ADMISSION</p>
+    </div>
+  </div>
+</div>
+
+
+<div style="height: 500px;"></div>
+<div class="contact">
+ <pre><p class="cont">Contact Us:   formbharwao@gmail.com </p>
+</div>
+
+</body>
+</html>
+
     
       
 </body>
