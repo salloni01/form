@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <meta name="keywords" content="Online, Shopping" />
     <title>Document</title>
-    <link rel="stylesheet" href="loginform.css">
+    <link rel="stylesheet" href="createaccount.css">
 </head>
 
 <body>
     <header>
-        <h1>Login</h1>
+        <h1>Signup</h1>
     </header>
 
     <article>
@@ -67,6 +67,7 @@
                         <input type="checkbox" name="language" id="english" value="English" checked>
                         <label for="english">English</label></td>
                       </table>
-<button class="btn" onclick="window.location.href='loginform.html'">Create</button>
+<button class="btn1" onclick="window.location.href='loginform.html'">Create</button>
 </form>
+
 
